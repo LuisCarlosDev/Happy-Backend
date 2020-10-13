@@ -1,0 +1,13 @@
+Rota = conjunto
+Recurso = user
+
+Métodos HTTP = GET, POST, PUT, DELETE
+   GET -> Buscar uma informação (Lista, item)
+   POST -> Criando um informação
+   PUT -> Editando uma informação
+   DELETE -> Deletando uma informação
+
+Parâmetros
+   Query Params:  http://localhost:3333/users?search=luis
+   Route Params:  http://localhost:3333/users/1 (Identificar um recurso)
+   Body: http://localhost:3333/users/1 (Identificar um recurso)
